@@ -1,3 +1,45 @@
 #grid-cards {
-  
+  width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px 24px;
+
+  margin-block: 0 144px;
+
+  .cards{
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    border: 1px solid var(--gray-300);
+    border-radius: 12px;
+    padding: 12px;
+    transition: 0.5s;
+
+    img {
+      width: 306px;
+      height: 156px;
+      object-fit: cover;
+      border-radius: 8px;
+
+      margin-block: 0 20px;
+    }
+
+    h3 {
+      font: var(--h3);
+      color: var(--gray-600);
+      margin-block: 0 8px;
+    }
+
+    p {
+      font: 400 14px/140% var(--font-family-asap);
+      color: var(--gray-500);
+    }
+
+    &:hover {
+      border: 1px solid var(--gray-600); 
+    }
+
+  }
 }
