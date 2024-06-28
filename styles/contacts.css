@@ -34,10 +34,17 @@
     margin: auto;
     padding: 20px;
 
+    transition: 0.5s;
+
     #linkedin, #instagram, #github, #email {
       display: flex;
       align-items: center;
       gap: 12px;
+
+      img {
+        width: 28px;
+        height: 28px;
+      }
     }
 
     &:hover {
