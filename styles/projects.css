@@ -1,0 +1,21 @@
+#projects {
+  width: 1366px;
+  margin: auto;
+  background-color: var(--gray-200);
+  
+  header {
+    margin-block: 72px 0;
+  }
+
+  header p {
+  font: var(--subtitle);
+  color: var(--red);
+  margin-block: 0 8px;
+}
+
+  header h2 {
+    font: var(--h2);
+    color: var(--gray-600);
+    margin-block: 0 56px;
+  }
+}

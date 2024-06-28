@@ -32,10 +32,13 @@
  }
 
  body {
-  background-color: black;
+  background-color: var(--gray-200);
  }
 
  .container {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 1366px;
   margin: auto;
  }
