@@ -57,6 +57,10 @@ header {
     gap: 8px;
     align-items: center;
 
+    padding: 8px 16px;
+    background-color: var(--gray-300);
+    border-radius:206px;
+
     img{
       width: 24px;
     }
