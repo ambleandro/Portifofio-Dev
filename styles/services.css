@@ -41,6 +41,10 @@
   #grid-services div {
     width: 280px;
     height: 155px;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+
+    padding: 20px;
   }
 
   

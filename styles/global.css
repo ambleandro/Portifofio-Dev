@@ -64,3 +64,11 @@
   margin: auto;
  }
 
+ .contact-container {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1366px;
+  margin: auto;
+ }
+
