@@ -26,8 +26,7 @@
     background-color: var(--gray-300);
     width: 400px;
     display: flex;
-    gap: 16px;
-
+    justify-content: space-between;
 
     border-radius: 8px;
     align-items: center;
@@ -35,13 +34,14 @@
     margin: auto;
     padding: 20px;
 
-    &:hover {
-      border: 1px solid var(--blue);
-
-      #linkedin {
-        
-      }
+    #linkedin, #instagram, #github, #email {
+      display: flex;
+      align-items: center;
+      gap: 12px;
     }
 
-   }
-}
+    &:hover {
+      border: 1px solid var(--blue);
+    }
+    }
+  }
