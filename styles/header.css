@@ -36,10 +36,6 @@ header {
     text-align: center;
   }
 
-  span {
-    color: var(--red);
-  }
-
   .content-tag {
     display: flex;
     gap: 16px;

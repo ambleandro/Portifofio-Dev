@@ -8,14 +8,10 @@
   }
 
   header p {
-  font: var(--subtitle);
-  color: var(--red);
   margin-block: 0 8px;
 }
 
   header h2 {
-    font: var(--h2);
-    color: var(--gray-600);
     margin-block: 0 56px;
   }
 }

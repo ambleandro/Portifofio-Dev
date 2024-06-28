@@ -1,0 +1,47 @@
+#contacts {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   margin: 128px auto 200px;
+
+  header {
+    margin-bottom: 48px;
+
+    &>p:nth-child(1) {
+      color: var(--purple);
+      margin-bottom: 8px;
+    }
+
+  h2 {
+    margin-bottom: 8px;
+  }    
+
+  &>p:nth-child(3) {
+    font: 400 16px/140% var(--font-family-asap);
+    color: var(--gray-500);
+  } 
+  }
+
+   .links {
+    background-color: var(--gray-300);
+    width: 400px;
+    display: flex;
+    gap: 16px;
+
+
+    border-radius: 8px;
+    align-items: center;
+
+    margin: auto;
+    padding: 20px;
+
+    &:hover {
+      border: 1px solid var(--blue);
+
+      #linkedin {
+        
+      }
+    }
+
+   }
+}
